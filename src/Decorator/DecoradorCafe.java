@@ -1,4 +1,9 @@
 package Decorator;
+import Bebidas.*;
 
-public class DecoradorCafe {
+public abstract class DecoradorCafe extends Cafe {
+    protected Cafe cafe;
+    public DecoradorCafe(Cafe cafe){
+        this.cafe = cafe;
+    }
 }
