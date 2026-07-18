@@ -1,7 +1,6 @@
 package Complementos;
-
-import Bebidas.Cafe;
-import Decorator.DecoradorCafe;
+import Bebidas.*;
+import Decorator.*;
 
 public class Leche extends DecoradorCafe {
 
