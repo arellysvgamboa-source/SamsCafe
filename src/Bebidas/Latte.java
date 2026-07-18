@@ -1,6 +1,7 @@
 package Bebidas;
 
 public class Latte extends Cafe{
+
     @Override
     public String descripcion() {
         return "Latte";
